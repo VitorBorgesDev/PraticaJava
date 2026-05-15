@@ -21,7 +21,7 @@ public class LogicaSeila {
             }
         }
 
-        System.out.println("🏪 FATURAMENTO LOJA");
+        System.out.println("FATURAMENTO LOJA");
         System.out.println("A: R$" + faturamento[1]);
         System.out.println("B: R$" + faturamento[2]);
         System.out.println("C: R$" + faturamento[3]);
