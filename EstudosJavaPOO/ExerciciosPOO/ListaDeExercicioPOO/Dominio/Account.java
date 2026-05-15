@@ -10,7 +10,6 @@ public class Account {
             return;
 
         }
-
             if (balance < 0) {
                 System.out.println("Error: Balance cannot be negative.");
                 return;
@@ -19,10 +18,7 @@ public class Account {
 
             this.accountNumber = accountNumber;
             this.balance = balance;
-
         }
-
-
     }
 
 
