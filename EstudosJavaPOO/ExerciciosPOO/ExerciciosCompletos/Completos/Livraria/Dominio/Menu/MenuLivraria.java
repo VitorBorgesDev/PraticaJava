@@ -51,10 +51,10 @@ public class MenuLivraria {
             System.out.println("*******BEM-VINDO*******");
             System.out.println("1. Adicionar livro");
             System.out.println("2. Remover livro");
-            System.out.println("3. Mostrar livros adicionados "); // quero que isso tambem deixe excluir
-            System.out.println("4. Listar livros disponiveis"); // deixar pegar emprestado) (pretendo pegar algum emprestado?) se sim pegue (pedir dias de emprestimo diasMax 30)/ se nao o programa volta
-            System.out.println("5. Mostrar os emprestados"); //pretende devolver algum?
-            System.out.println("6. Devolver"); //se tiver execido o limite paga) se nao (voce esta em dia!)
+            System.out.println("3. Mostrar livros adicionados ");
+            System.out.println("4. Listar livros disponiveis");
+            System.out.println("5. Mostrar os emprestados"); 
+            System.out.println("6. Devolver");
             System.out.println("7. Mostrar resumo");
             System.out.println("0. sair");
             System.out.println("************************");
@@ -68,7 +68,7 @@ public class MenuLivraria {
                     System.out.println("////////////////////////////");
                     System.out.println("Adicione seu livro!");
                     System.out.println("Qual o titulo do livro?");
-                    entrada.nextLine();                              // limpar buffer se veio de um nextInt anterior
+                    entrada.nextLine();                              
                     String tituloLivro = entrada.nextLine();
 
                     System.out.println("Qual o autor do livro?");
