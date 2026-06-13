@@ -1,8 +1,11 @@
 package LogicaJava.ExerciciosCompletos.Completos.ContaBancaria.Dominio;
 
+
+
 public class Usuario {
-    public String nome;
-    public String cpf;
+
+    private String nome;
+    private String cpf;
 
     public Usuario(String nome, String cpf) {
         this.nome = nome;
@@ -11,10 +14,8 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "nome='" + nome + '\'' +
-                ", cpf='" + cpf + '\'' +
-                '}';
+        return "Nome: " + nome +
+                " | CPF: " + cpf;
     }
 
     public String getNome() {
@@ -24,6 +25,7 @@ public class Usuario {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
 
     public String getCpf() {
         return cpf;
