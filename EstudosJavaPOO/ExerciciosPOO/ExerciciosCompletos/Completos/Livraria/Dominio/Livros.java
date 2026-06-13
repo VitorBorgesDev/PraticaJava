@@ -33,9 +33,9 @@ public class Livros {
         if (status == StatusLivro.DISPONIVEL) {
             status = StatusLivro.EMPRESTADO;
 
-            //dataEmprestimo = LocalDate.now().minusDays(40);
+            dataEmprestimo = LocalDate.now().minusDays(40);
 
-            dataEmprestimo = LocalDate.now();
+           //dataEmprestimo = LocalDate.now();
             System.out.println("\"" + titulo + "\" emprestado com sucesso!");
 
         } else {

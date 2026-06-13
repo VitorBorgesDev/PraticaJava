@@ -1,25 +1,25 @@
 package LogicaJava.ExerciciosCompletos.Completos.ContaBancaria.Dominio;
 
 
-public class Login {
-    private String nome;
-    private String cpf;
+import java.util.ArrayList;
 
-
+public class Login extends Usuario {
+    String cpf;
+    String nome;
 
 
     public Login(String nome, String cpf) {
-        this.nome = nome;
+        super(cpf, nome);
         this.cpf = cpf;
+        this.nome = nome;
+
     }
 
 
 
-
-
-    public void LoginUsuario(){
-        System.out.println("Nome Do Usuario: " + this.nome);
-        System.out.println("CPF do Usuario: " + this.cpf);
+    public void LoginUsuario(Usuario usuario) {
+        System.out.println("Nome Do Usuario: " + usuario.getNome());
+        System.out.println("CPF do Usuario: " + usuario.getCpf());
 
     }
 

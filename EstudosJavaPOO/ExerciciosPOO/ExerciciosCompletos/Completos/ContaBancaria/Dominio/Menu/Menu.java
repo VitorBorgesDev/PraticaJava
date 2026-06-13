@@ -4,6 +4,7 @@ import LogicaJava.ExerciciosCompletos.Completos.ContaBancaria.Dominio.Login;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import static java.lang.Thread.sleep;
@@ -41,6 +42,9 @@ public class Menu {
 
             System.out.println("BEM VINDO!!! " + nomeUsuario);
             loginUsuario = new Login(nomeUsuario, cpf);
+
+
+
 
         }
 
