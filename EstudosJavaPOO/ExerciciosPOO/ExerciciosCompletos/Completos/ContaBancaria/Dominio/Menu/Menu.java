@@ -44,8 +44,6 @@ public class Menu {
             loginUsuario = new Login(nomeUsuario, cpf);
 
 
-
-
         }
 
 
@@ -78,8 +76,10 @@ public class Menu {
                     System.out.println("Digite o número da conta de destino: ");
                     int numeroDestino = input.nextInt();
                     ContaBancaria contaDestino = new ContaBancaria(0,  numeroDestino);
+
                     System.out.println("Digite o valor a transferir: ");
                     double valorTransferir = input.nextDouble();
+
                     System.out.println("Transferência realizada com sucesso!!");
                     contaBancaria.transferir(contaDestino, valorTransferir);
                     break;

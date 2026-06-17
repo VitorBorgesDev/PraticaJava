@@ -39,6 +39,7 @@ public class Livraria {
     public void removerLivro(int indice) {
         if(indice < 0 || indice > livros.size()) {
             System.out.println("Escreva um valor valido!");
+            return;
         }
         livros.remove(indice);
         System.out.println("Livro removido com sucesso!");
@@ -97,8 +98,6 @@ public class Livraria {
 
                 System.out.println("----------");
                 System.out.println(i + " - " + livro.getTitulo() + " | " + " Status " + " = " + livro.getStatus());
-
-
                 encontrou = true;
 
             }
