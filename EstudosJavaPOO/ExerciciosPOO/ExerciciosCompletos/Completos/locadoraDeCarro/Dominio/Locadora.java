@@ -14,6 +14,8 @@ public class Locadora {
         carros.add(carro);
     }
 
+
+
     public void listarCarrosDisponiveis() {
         boolean encontrou = false;
 
@@ -52,6 +54,10 @@ public class Locadora {
         return null;
     }
 
+
+    public void mostrarExtrato(){
+
+    }
 
 
 

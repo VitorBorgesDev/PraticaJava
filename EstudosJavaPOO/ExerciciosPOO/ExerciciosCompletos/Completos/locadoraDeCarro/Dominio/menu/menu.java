@@ -2,7 +2,7 @@ package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.menu;
 
 import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Carro;
 import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.AluguelPrincipal;
-import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Cliente;
+import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Login.Cliente;
 import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Locadora;
 
 import java.util.Scanner;

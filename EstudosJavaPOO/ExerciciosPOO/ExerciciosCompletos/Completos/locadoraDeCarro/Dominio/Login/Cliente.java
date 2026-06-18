@@ -1,16 +1,29 @@
-package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio;
+package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Login;
+
+import java.util.ArrayList;
 
 public class Cliente {
     private String nome;
     private int numero;
     private String senha;
+    private ArrayList<Cliente> clientes;
+    private LoginCliente loginCliente;
 
 
     public Cliente(String nome, int numero, String senha) {
         this.nome = nome;
         this.numero = numero;
         this.senha = senha;
+
     }
+
+    public Cliente(ArrayList<Cliente> clientes) {
+        this.clientes = clientes;
+    }
+
+
+
+
 
     public void mostrarInformacoes() {
         System.out.println("Nome do cliente: " + this.nome );
@@ -20,9 +33,6 @@ public class Cliente {
 
     }
 
-    public void mostrarInformacoesCarro() {
-        mostrarInformacoes();
-    }
 
 
     public String getNome() {

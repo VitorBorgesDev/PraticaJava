@@ -1,5 +1,7 @@
 package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio;
 
+import java.time.format.DateTimeFormatter;
+
 public class Carro {
 
     private String modeloCarro;
@@ -7,7 +9,7 @@ public class Carro {
     private int anoCarro;
     private double valorPorDia;
     private boolean alugado;
-
+    // adicionar data e hora quando o carro foi alugado e registrar a mostrar que hora foi devolvido;
 
     public Carro(String modeloCarro, String placaCarro, int anoCarro, double valorPorDia) {
         this.modeloCarro = modeloCarro;
@@ -22,6 +24,8 @@ public class Carro {
         if (alugado == false) {
             alugado = true;
             System.out.println("Carro alugado com  sucesso!!!!");
+
+
         } else {
             System.out.println("Carro indisponivel para alugel");
         }
@@ -36,7 +40,6 @@ public class Carro {
             System.out.println("Carro ja devolvido/disponivel");
         }
     }
-
 
     public String getModeloCarro() {
         return modeloCarro;
@@ -62,14 +65,6 @@ public class Carro {
         this.anoCarro = anoCarro;
     }
 
-    public boolean isAlugado() {
-        return alugado;
-    }
-
-    public void setAlugado(boolean alugado) {
-        this.alugado = alugado;
-    }
-
     public double getValorPorDia() {
         return valorPorDia;
     }
@@ -78,6 +73,11 @@ public class Carro {
         this.valorPorDia = valorPorDia;
     }
 
-    public void calcularTotal() {
+    public boolean isAlugado() {
+        return alugado;
+    }
+
+    public void setAlugado(boolean alugado) {
+        this.alugado = alugado;
     }
 }

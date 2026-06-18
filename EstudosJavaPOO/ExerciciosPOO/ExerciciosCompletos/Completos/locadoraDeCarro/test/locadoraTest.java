@@ -1,4 +1,4 @@
-package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.teste;
+package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.test;
 
 import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.menu.menu;
 
