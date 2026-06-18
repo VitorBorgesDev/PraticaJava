@@ -1,4 +1,4 @@
-package LogicaJava.ExerciciosSimples.Incompletos.MiniCarrinho.Domain;
+package LogicaJava.ExerciciosCompletos.Completos.MiniCarrinho.Domain;
 
 import java.util.ArrayList;
 

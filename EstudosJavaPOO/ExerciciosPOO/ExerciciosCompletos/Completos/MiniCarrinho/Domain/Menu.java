@@ -1,6 +1,4 @@
-package LogicaJava.ExerciciosSimples.Incompletos.MiniCarrinho.Domain;
-
-import LogicaJava.ExerciciosCompletos.Completos.LojaComPagamento.dominio.Carrinho;
+package LogicaJava.ExerciciosCompletos.Completos.MiniCarrinho.Domain;
 
 public class Menu {
     private CarrinhoProduto carrinho;

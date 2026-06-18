@@ -1,7 +1,7 @@
-package LogicaJava.ExerciciosSimples.Incompletos.MiniCarrinho.Test;
+package LogicaJava.ExerciciosCompletos.Completos.MiniCarrinho.Test;
 
-import LogicaJava.ExerciciosSimples.Incompletos.MiniCarrinho.Domain.CarrinhoProduto;
-import LogicaJava.ExerciciosSimples.Incompletos.MiniCarrinho.Domain.Produto;
+import LogicaJava.ExerciciosCompletos.Completos.MiniCarrinho.Domain.CarrinhoProduto;
+import LogicaJava.ExerciciosCompletos.Completos.MiniCarrinho.Domain.Produto;
 
 public class ProdutoTest {
     static void main(String[] args) {

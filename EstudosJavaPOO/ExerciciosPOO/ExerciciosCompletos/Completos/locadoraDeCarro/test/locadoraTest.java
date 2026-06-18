@@ -1,6 +1,6 @@
-package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.test;
+package LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.test;
 
-import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.menu.menu;
+import LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.menu.menu;
 
 public class locadoraTest {
     static void main(String[] args) {

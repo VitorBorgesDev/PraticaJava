@@ -2,10 +2,13 @@ package LogicaJava.ExerciciosCompletos.Completos.ContaBancaria.Dominio;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Login extends Usuario {
     String cpf;
     String nome;
+
+
 
 
     public Login(String nome, String cpf) {

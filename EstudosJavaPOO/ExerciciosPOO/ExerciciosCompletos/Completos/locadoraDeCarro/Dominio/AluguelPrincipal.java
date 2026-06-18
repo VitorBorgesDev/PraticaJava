@@ -1,6 +1,6 @@
-package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio;
+package LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio;
 
-import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Login.Cliente;
+import LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.Login.Cliente;
 
 public class AluguelPrincipal {
     private Cliente cliente;

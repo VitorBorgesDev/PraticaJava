@@ -1,4 +1,4 @@
-package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Login;
+package LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.Login;
 
 public enum LoginCliente {
     LOGADO,

@@ -1,7 +1,7 @@
-package LogicaJava.ExerciciosSimples.Incompletos.Loja.Main;
+package LogicaJava.ExerciciosCompletos.Completos.Loja.Main;
 
 import LogicaJava.ExerciciosCompletos.Completos.JogoRPG.Dominio.Mago;
-import LogicaJava.ExerciciosSimples.Incompletos.Loja.Menu.MenuLoja;
+import LogicaJava.ExerciciosCompletos.Completos.Loja.Menu.MenuLoja;
 
 import java.util.ArrayList;
 

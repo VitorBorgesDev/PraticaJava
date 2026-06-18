@@ -44,7 +44,7 @@ public class ContaBancaria {
         if (valorSacado > 0 && saldo >= valorSacado) {
             saldo -= valorSacado;
             System.out.printf("Saque realizado com sucesso no valor de R$ %.2f%n ", valorSacado);
-            System.out.printf("Saldo atual: R$ %.2f%n " , saldo);
+            System.out.printf("Saldo atual: R$ %.2f%n ", saldo);
             registrarExtrato("Saque: R$ " + valorSacado + " | Saldo: R$ " + saldo);
 
         } else {
@@ -58,8 +58,6 @@ public class ContaBancaria {
 
     }
 
-
-// Preciso de alguns ajustes
     public void transferir(ContaBancaria contaDestino, double valorTransferencia) {
         if (valorTransferencia > 0 && saldo >= valorTransferencia) {
             saldo -= valorTransferencia;
@@ -75,7 +73,7 @@ public class ContaBancaria {
 
             registrarExtrato(descricaoOrigem);
             contaDestino.registrarExtrato(descricaoDestino);
-            System.out.printf("Transferência de R$ %.2f%n ", valorTransferencia , " realizada com sucesso!");
+            System.out.printf("Transferência de R$ %.2f%n ", valorTransferencia, " realizada com sucesso!");
 
 
         } else {

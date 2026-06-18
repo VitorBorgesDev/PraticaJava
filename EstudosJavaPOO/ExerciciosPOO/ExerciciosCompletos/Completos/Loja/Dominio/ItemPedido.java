@@ -1,4 +1,4 @@
-package LogicaJava.ExerciciosSimples.Incompletos.Loja.Dominio;
+package LogicaJava.ExerciciosCompletos.Completos.Loja.Dominio;
 
 public class ItemPedido {
     private Produto01 produto;

@@ -1,7 +1,7 @@
-package LogicaJava.ExerciciosSimples.Incompletos.Loja.Menu;
+package LogicaJava.ExerciciosCompletos.Completos.Loja.Menu;
 
-import LogicaJava.ExerciciosSimples.Incompletos.Loja.Dominio.Pedido;
-import LogicaJava.ExerciciosSimples.Incompletos.Loja.Dominio.Produto01;
+import LogicaJava.ExerciciosCompletos.Completos.Loja.Dominio.Pedido;
+import LogicaJava.ExerciciosCompletos.Completos.Loja.Dominio.Produto01;
 
 import java.util.ArrayList;
 import java.util.Scanner;

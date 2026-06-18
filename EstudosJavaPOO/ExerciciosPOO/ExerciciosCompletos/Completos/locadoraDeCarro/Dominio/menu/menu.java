@@ -1,9 +1,9 @@
-package LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.menu;
+package LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.menu;
 
-import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Carro;
-import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.AluguelPrincipal;
-import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Login.Cliente;
-import LogicaJava.ExerciciosSimples.Incompletos.locadoraDeCarro.Dominio.Locadora;
+import LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.Carro;
+import LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.AluguelPrincipal;
+import LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.Login.Cliente;
+import LogicaJava.ExerciciosCompletos.Completos.locadoraDeCarro.Dominio.Locadora;
 
 import java.util.Scanner;
 
